@@ -1,4 +1,4 @@
-baseurl = "https://www.vpsaddict.com"
+baseurl = "https://vpsaddict.com"
 title = "Jonathan Mainguy - vpsaddict.com"
 theme = "hugo-coder"
 languagecode = "en"
