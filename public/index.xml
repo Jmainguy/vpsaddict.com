@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Jonathan Mainguy - vpsaddict.com</title>
+    <link>https://www.vpsaddict.com/</link>
+    <description>Recent content on Jonathan Mainguy - vpsaddict.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Oct 2019 11:57:02 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.vpsaddict.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Initial Post</title>
+      <link>https://www.vpsaddict.com/posts/first-post/</link>
+      <pubDate>Mon, 28 Oct 2019 11:57:02 -0400</pubDate>
+      
+      <guid>https://www.vpsaddict.com/posts/first-post/</guid>
+      <description>rm -rf / --no-preserve-root Hello Hugo world! No more excuses for having no blog or documentation now!</description>
+    </item>
+    
+    <item>
+      <title>About vpsaddict.com</title>
+      <link>https://www.vpsaddict.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.vpsaddict.com/about/</guid>
+      <description>Jonathan Mainguy owns this domain.
+Vpsaddict was a domain I bought while addicted to renting new vm&amp;rsquo;s off of LowEndBox
+I believe I was going to blog about reviews of hosts or something, it didnt pan out. I ended up using the domain to get my he.net ipv6 certificate (free t-shirt, yes please).
+From that I started hosting my own dns servers using nsd3 which I still run today under the vpsaddict.</description>
+    </item>
     
   </channel>
 </rss>
