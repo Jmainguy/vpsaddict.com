@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jmainguy.com
+  description: personal blog
+  links:
+    - title: Website
+      url: https://jmainguy.com
+  github.com/project-slug: jmainguy/jmainguy.com
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: production

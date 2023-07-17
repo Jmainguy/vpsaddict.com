@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: standouthost.com
+  description: palceholder website for old hosting business
+  links:
+    - title: Website
+      url: https://standouthost.com
+  github.com/project-slug: jmainguy/standouthost.com
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: deprecated

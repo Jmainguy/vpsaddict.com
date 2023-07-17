@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: vpsaddict
-  description: An example of a Backstage application.
+  name: vpsaddict.com
+  description: central infrastructure discovery website.
   links:
     - title: Website
       url: https://vpsaddict.com
+  github.com/project-slug: jmainguy/vpsaddict.com
 spec:
   type: website
   owner: jon@soh.re

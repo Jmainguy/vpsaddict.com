@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: soh.re
+  description: cli resume website.
+  links:
+    - title: Website
+      url: https://soh.re
+  github.com/project-slug: jmainguy/soh.re
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: experimental 
