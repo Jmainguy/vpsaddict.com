@@ -58,6 +58,7 @@ scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
 catalog:
+  readonly: true
   locations:
-    - type: file
-      target: catalog-info.yaml
+    - type: github-discovery
+      target: https://github.com/jmainguy/vpsaddict.com/blob/-/catalog/*.yaml
