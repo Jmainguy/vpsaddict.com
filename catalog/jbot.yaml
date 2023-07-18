@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jbot
+  description: slack to sms bot for rightwaypropertycare
+  github.com/project-slug: jmainguy/jbot
+spec:
+  type: service
+  owner: jon@soh.re
+  lifecycle: production

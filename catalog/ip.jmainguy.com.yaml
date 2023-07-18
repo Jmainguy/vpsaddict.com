@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ip.jmainguy.com
+  description: website that returns your IP when called.
+  links:
+    - title: Website
+      url: https://ip.jmainguy.com
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: production

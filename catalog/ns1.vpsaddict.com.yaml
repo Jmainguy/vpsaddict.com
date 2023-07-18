@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ns1.vpsaddict.com
+  description: nsd nameserver for all my domains
+spec:
+  type: service
+  owner: jon@soh.re
+  lifecycle: production

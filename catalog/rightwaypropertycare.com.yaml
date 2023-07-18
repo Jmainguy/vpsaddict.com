@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rightwaypropertycare.com
+  description: My brothers powerwashing business website
+  links:
+    - title: Website
+      url: https://rightwaypropertycare.com
+spec:
+  type: website
+  owner: jon@jmainguy.com
+  lifecycle: production

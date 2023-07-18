@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hey.soh.re
+  description: funny website meant to play in a loop of He Man singing Whats up by the 4 Non Blondes
+  links:
+    - title: Website
+      url: https://hey.soh.re
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: production

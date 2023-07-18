@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: statuscode.soh.re
+  description: website to explain http statuscodes
+  links:
+    - title: Website
+      url: https://statuscode.soh.re
+  github.com/project-slug: jmainguy/statuscode
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: production

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hub.soh.re
+  description: A docker registry that allows reading from it.
+  links:
+    - title: Website
+      url: https://hub.soh.re
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: production

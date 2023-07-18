@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: push.soh.re
+  description: A docker registry that allows writing to it via basic auth
+  links:
+    - title: Website
+      url: https://push.soh.re
+spec:
+  type: website
+  owner: jon@soh.re
+  lifecycle: production
