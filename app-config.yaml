@@ -62,13 +62,14 @@ catalog:
   providers:
     github:
       # the provider ID can be any camelCase string
-      providerId:
+      centralCatchAll:
         organization: 'jmainguy'
         catalogPath: '/catalog/*.yaml' # string
         filters:
-          repository: 'vpsaddict.com' # Regex
-        schedule: # optional; same options as in TaskScheduleDefinition
-          # supports cron, ISO duration, "human duration" as used in code
-          frequency: { minutes: 30 }
-          # supports ISO duration, "human duration" as used in code
-          timeout: { minutes: 3 }
+          repository: '^vpsaddict.com$' # Regex
+      perService:
+        organization: 'jmainguy'
+        filters:
+          topic:
+            include: ['backstage-include'] 
+        validateLocationsExist: true # optional boolean
